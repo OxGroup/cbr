@@ -1,6 +1,7 @@
 {
   "name": "ox/cbr",
   "license": "OxGroup",
+  "description": "Получение актуальных курсов валют от центрального банка Российской Федерации",
   "authors": [
     {
       "name": "Aliaxander Tsihankou",
