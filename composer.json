@@ -1,0 +1,31 @@
+{
+  "name": "ox/cbr",
+  "license": "OxGroup",
+  "authors": [
+    {
+      "name": "Aliaxander Tsihankou",
+      "email": "dev@oxgroup.media"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "autoload-dev": {
+    "psr-1": {
+      "Ox": "libs/",
+      "Ox\\": "libs/"
+    },
+    "classmap": [
+      "libs/"
+    ]
+  },
+  "autoload": {
+    "psr-1": {
+      "Ox": "libs/",
+      "Ox\\": "libs/"
+    },
+    "classmap": [
+      "libs/"
+    ]
+  }
+}
