@@ -11,7 +11,7 @@
     "php": ">=5.3.0"
   },
   "autoload-dev": {
-    "psr-1": {
+    "psr-0": {
       "Ox": "libs/",
       "Ox\\": "libs/"
     },
@@ -20,7 +20,7 @@
     ]
   },
   "autoload": {
-    "psr-1": {
+    "psr-0": {
       "Ox": "libs/",
       "Ox\\": "libs/"
     },
