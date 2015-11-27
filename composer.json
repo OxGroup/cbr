@@ -13,7 +13,8 @@
   "authors": [
     {
       "name": "Aliaxander Tsihankou",
-      "email": "dev@oxgroup.media"
+      "email": "dev@oxgroup.media",
+      "homepage": "http://oxgroup.media/"
     }
   ],
   "require": {
