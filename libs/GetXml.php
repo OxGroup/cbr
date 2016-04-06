@@ -8,10 +8,10 @@
 
 namespace Ox\Cbr;
 
-
-class AbstractModel
+abstract class GetXml
 {
-    protected static function getXML(){
+    protected static function getXML()
+    {
         $curl = curl_init();
         curl_setopt($curl, CURLOPT_URL, "http://www.cbr.ru/scripts/XML_daily.asp");
         curl_setopt($curl, CURLOPT_TIMEOUT, 20);
@@ -22,9 +22,9 @@ class AbstractModel
 
         $result = @new \SimpleXMLElement($result);
         if (!$result) {
-
             $result = false;
         }
+
         return $result;
     }
 }
