@@ -7,8 +7,8 @@
  */
 
 use Ox\Cbr\Cbr;
-
+echo "<pre>";
 $loader = require __DIR__ . '/../vendor/autoload.php';
-
-$result= json_decode(Cbr::getCourse());
+$date="02/03/2016";
+$result= json_decode(Cbr::getCourse($date));
 print_r($result);

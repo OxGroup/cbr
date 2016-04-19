@@ -10,10 +10,10 @@ namespace Ox\Cbr;
 
 class Cbr extends GetXml
 {
-
-    public static function getCourse()
+    
+    public static function getCourse($date = "")
     {
-        return self::readXmlToJson(static::getXML());
+        return self::readXmlToJson(static::getXML($date));
     }
     
     private static function readXmlToJson($xml)
@@ -28,7 +28,7 @@ class Cbr extends GetXml
                 "value" => $val['Value'],
             );
         }
-
+        
         return json_encode($result);
     }
 }
